@@ -4,6 +4,7 @@ name:           Satyr Farm
 description:    Official site for the Satyr Farm System.
 logo: /assets/img/logo.png
 show_downloads: false
+show_sidebar: true
 google_analytics:
 
 
