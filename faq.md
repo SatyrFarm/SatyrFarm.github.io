@@ -14,7 +14,7 @@ SatyrFarm is only available in opensim. It makes heavy use of the OSSL functions
 You can get the current up-to-date farm package from the OpenSimWorld Region in Metropolis Grid: https://opensimworld.com/hop/74730-OpenSimWorld. The package contains the complete farm as well as some documentation and extra tools. 
 
 ### How do i Set up the basics?
-Easy! When you get a copy of SatyrFarm, then you can rez the <b>Satyr Farm Latest 50x50 Platform</b> and it has all the basics ready. Make sure you rez the item in a large open space, as it contains a lot of stuff.  The package also contains the SF Animal Rezzer box, which is used to rez new animals for your farm. As a general rule, we suggest that you start growing some crops before growing multiple animals, otherwise your animals might get really hungry! You should read the manual inside the box for more information on the items ...it can sometimes be confusing! :)
+Easy! When you get a copy of SatyrFarm, then you can rez the <b>Satyr Farm Platforms</b> which have all the basics ready. Make sure you rez it in a large empty space, as it contains a lot of stuff.  The package contains the SF Animal Rezzer box, which is used to rez new animals for your farm. As a general rule, we suggest that you start growing some crops before growing many animals, otherwise your animals might get really hungry! You should read the <a href="/quickstart">quickstart guide</a> for your first steps.
 
 ### My animals are spinning in place
 If an  animal seems to be spinning in place, it is because you have moved it manually. Click "Stop"  to  have it start wandering again.
