@@ -10,13 +10,13 @@ For the latest  SatyrFarm package, visit OpenSimWorld:  hypergrid.org:8002:OpenS
 
 - You  must be in the same group as the farm objects to use them. Everyone in the same group can use your farm.
 - To get a bucket of water, click the Well. A bucket will be rezzed in front of the well.
-- You can touch a bucket and it will follow you. Touch it again to put it down.
-- The names of the objects starting with "SF " must not be changed. The names are important for the functipning of the farm.
+- You can touch a bucket and it will follow you. Touch it again to put it down. All farm items work similarly.
 - Bring a bucket near a plant, then touch a plant to water it. Alternatively you can turn on the AutoWatering feature of the plants, which will automatically take water from the nearest SF Water Tower when needed.
-- **DO  NOT TAKE ITEMS IN INVENTORY, THEY WILL BECOME UNUSABLE**. Put them in the storage barrels instead. (This is not like G&S). Only the animals can be taken to inventory and they will not starve while they are in inventory although they will keep growing. 
 - Autowatering requires the presence of a SF Water Tower in a distance less than 96m.  Similarly AutoFood requires an SF Storage rack or SF Fridge with enough food within 96m radius. 
 - The SF Windpump automatically fills up the nearest water tower. the Water Tower can automatically water everything if you have autoWater enabled
 - The SF Rack and Fridge are for storing harvested items for longer term. Animal feeders can automatically take items from them if you turn on the  AutoFood option.
+- The names of the objects starting with "SF " must not be changed. The names are important for the functipning of the farm.
+- **DO  NOT TAKE BUCKETS IN INVENTORY, THEY WILL BECOME UNUSABLE**. Put them in the storage barrels instead. (This is not like G&S). Only the animals can be taken to inventory and they will not starve while they are in inventory although they will keep growing. 
 
 ### Animals
 
