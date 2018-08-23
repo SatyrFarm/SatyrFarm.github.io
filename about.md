@@ -1,21 +1,11 @@
-# Developers
+## Developers
+- Satyr Aeon @ hypergrid.org:8002
+- Unregi Resident @ osgrid.org
 
-## Satyr Aeon
+## Code Contributors
+- Bob Wellman @ www.pmgrid.org:8002
+- Shellen Ayres @ hypergrid.org:8002
 
-Discord Username : 
+## Website
+- Cody Cooper @hg.neverworldgrid.org:8002
 
-OpenSim Username : 
-
-Bio : 
-
-Favorite Quote : 
-> Somebody
-> - Somebody
-
-Amusing code excerpt/comment
-
-```
-if (isAwesome){
-  return true
-}
-```
