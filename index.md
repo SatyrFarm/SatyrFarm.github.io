@@ -7,9 +7,9 @@ It contains fully functional  plants, breedable animals, tools and food processi
 ## Where to Get
 Packages:
 
-The official package of SatyrFarm is available from the OpenSimWorld region in Metropolis Grid  (HG Address hypergrid.org:8002:OpenSimWorld) : http://opensimworld.com/hop/74730-OpenSimWorld
+The official package of SatyrFarm is available from the OpenSimWorld region in Metropolis Grid  (HG Address hypergrid.org:8002:OpenSimWorld) : <http://opensimworld.com/hop/74730-OpenSimWorld>
 
 ## Source Code:
-The latest versions of the scripts are hosted in the official github repository: https://github.com/SatyrFarm/SatyrFarm. WARNING: code may be experimental, although you are encouraged to contribute and test the code.
+The latest versions of the scripts are hosted in the official github repository: <https://github.com/SatyrFarm/SatyrFarm>. WARNING: code may be experimental, although you are encouraged to contribute and test the code.
 
 
