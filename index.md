@@ -1,9 +1,9 @@
 ## Welcome to The Main Website for Satyr Farm!
-Satyr Farm is an open source farming and roleplay system for OpenSimulator sims. 
-
+Satyr Farm is an open source farming and roleplay system for OpenSimulator sims.  
 It contains fully functional  plants, breedable animals, tools and food processing items. 
- 
- 
+
+<img src="/assets/img/snap_002.jpg" height="400" />
+
 ## Where to Get
 Packages:
 
