@@ -24,7 +24,7 @@ For the latest  SatyrFarm package, visit OpenSimWorld:  hypergrid.org:8002:OpenS
 - Animals feed from a the various SF Feeder objects. Grass-eating animals use the "SF Feeder" feeder. Dogs use SF Dog Feeder, Pigs use SF Pig Feeder etc.
 - When you select "Stop" from the animal menu, the animal will start wandering randomly up to 5 meters away from the stopping point. 
 - After female animals become adult, they can mate. You have to select "Mate" - they won't mate on their own. 
-- If an  animal seems to be spinning in place, it is because you have moved it manually. Click "Stop"  again to  have it start wandering.
+
 
 ### Kitchen
 
