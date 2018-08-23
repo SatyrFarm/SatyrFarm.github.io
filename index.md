@@ -12,4 +12,4 @@ The official package of SatyrFarm is available from the OpenSimWorld region in M
 ## Source Code:
 The latest versions of the scripts are hosted in the official github repository: <https://github.com/SatyrFarm/SatyrFarm>. WARNING: code may be experimental, although you are encouraged to contribute and test the code.
 
-<center>**<a href="/quickstart">Quickstart guide</a>**</center>
+<center><a href="/quickstart"><strong>Quickstart guide &raquo; </a></center>
