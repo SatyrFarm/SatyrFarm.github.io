@@ -14,7 +14,7 @@ Adding a a field or a tree requires the following steps (we take Mango as an exa
 Optional:
 
 Set `MATURATION=D` if your product takes a few days to mature. D is the number of days before being ready.
-Set `EXTRAPARAM=Hungry:-10,Thirsty:-10`  for your product to work with the HUD. -10 means the product will make you 10% less hungry and 10% less thirsty. These can be positive or negative numbers.
+Set `EXTRAPARAM=Hungry:-10|Thirsty:-10`  for your product to work with the HUD. -10 means the product will make you 10% less hungry and 10% less thirsty. These can be positive or negative numbers.
 
 If you plan to create more complex functionality you should add an addon script to the field or tree. Do not modify the main script as your changes will be overwritten  in the next release of the farm. The tree.lsl script sends a number of link_messages when actions happen. Search the tree.lsl script for llMessageLinked lines to see those messages and use them in your addon. 
 
