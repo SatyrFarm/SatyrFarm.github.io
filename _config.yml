@@ -1,8 +1,10 @@
 # Setup
+title: Satyr Farm
 name:           Satyr Farm
-description:    Official site for the Satyr Farm System.
-logo: /assets/img/logo.png
-show_downloads: true
+description:    A Farming and Roleplay system for opensimulator.
+logo: assets/img/sflogo.png
+show_downloads: false
+show_sidebar: true
 google_analytics:
 
 
