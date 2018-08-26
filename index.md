@@ -13,5 +13,6 @@ The latest versions of the scripts are hosted in the official github repository:
 - <a href="/quickstart"><strong>Read the quickstart guide</strong></a>
 - Join the #satyrfarm channel on <a href="https://discord.gg/xf9smv7">our discord</a>
 - Join the <a href="https://plus.google.com/communities/105311550018643513376">Google+ Farmers Community</a>
+- Learn how to <a href="/devguide">make your own  custom items</a>
 
 
