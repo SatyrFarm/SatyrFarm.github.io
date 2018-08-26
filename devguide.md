@@ -13,15 +13,15 @@ Adding a a field or a tree requires the following steps (we take Mango as an exa
 
 Optional:
 
-Set MATURATION=D if your product takes a few days to mature. D is the number of days before being ready.
-Set EXTRAPARAM=Hungry:-10,Thirsty:-10  for your product to work with the HUD. -10 means the product will make you 10% less hungry and 10% less thirsty. These can be positive or negative numbers.
+Set `MATURATION=D` if your product takes a few days to mature. D is the number of days before being ready.
+Set `EXTRAPARAM=Hungry:-10,Thirsty:-10`  for your product to work with the HUD. -10 means the product will make you 10% less hungry and 10% less thirsty. These can be positive or negative numbers.
 
 ### Processing machines, Kitchens etc.
 
 #### Recipes
 To create a recipe, you just need to add a line in the RECIPES notecard inside any food-processing object like the Kitchen, Juicer, microbrewery etc. The format is:
 
-  Mango Juice=Water, 50% Mango, Salt or 20% Sugar=200=SF Mango Juice
+`Mango Juice=Water, 50% Mango, Salt or 20% Sugar=200=SF Mango Juice`
 
 where  the fields between '=' are:
 - Menu item label
@@ -31,10 +31,10 @@ where  the fields between '=' are:
 
 
 #### Creating new machines
-You should be able to create new machines by adding and modifying options in the 'config' notecard. If your machine requires that you sit on it while processing, set "MUST_SIT=1" . The following conventions are also supported:
+You should be able to create new machines by adding and modifying options in the 'config' notecard. If your machine requires that you sit on it while processing, set `MUST_SIT=1` . The following conventions are also supported:
 
-- If you name one of the prims in the linkset "show_while_cooking" it will be shown (alpha 0%) during cooking only, and hidden afterwards. You can set an arbitrary alpha level for the link like 0.5 by naming it "show_while_cooking 0.5" 
-- If you name one of the prims in the linkset "spin <0,2.0,0>" it will spin in the Y local axis with spin rate 2 while cooking. You can change the vector to point to the direction and spin rate you wish.
+- If you name one of the prims in the linkset `show_while_cooking` it will be shown (alpha 0%) during cooking only, and hidden afterwards. You can set an arbitrary alpha level for the link like 0.5 by naming it `show_while_cooking 0.5`
+- If you name one of the prims in the linkset `spin <0,2.0,0>` it will spin in the Y local axis with spin rate 2 while cooking. You can change the vector to point to the direction and spin rate you wish.
 
 
 
