@@ -3,7 +3,8 @@ layout: post
 author: Cody Cooper
 ---
 # Satyr Farm Mascot Contest
-* Posted on August 26th,2018 at 6:00PM EST by Cody Cooper*
+
+
 We are proud to announce a contest for making a mascot for use in Satyr Farm documentation, guides, and other publications.
 
 This contest will be run from August 28th, 2018 until October 15th, 2018. 
