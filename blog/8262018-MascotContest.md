@@ -2,8 +2,6 @@
 layout: post
 author: Cody Cooper
 ---
-# Satyr Farm Mascot Contest
-
 
 We are proud to announce a contest for making a mascot for use in Satyr Farm documentation, guides, and other publications.
 
