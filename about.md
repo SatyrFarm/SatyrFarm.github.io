@@ -13,5 +13,3 @@
 - Ron Winterwolf @ hypergrid.org:8002
 - Carlwash Constantine  @ hypergrid.org:8002
 
-
-<div style="width:50%; display: inline-block">A</div><div style="width:50%; display: inline-block;">B</div>
