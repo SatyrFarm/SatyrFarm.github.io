@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Cody Cooper
+title: SF Mascot Contest
 ---
 
 We are proud to announce a contest for making a mascot for use in Satyr Farm documentation, guides, and other publications.
