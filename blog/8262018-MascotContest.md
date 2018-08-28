@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Cody Cooper
 ---
 # Satyr Farm Mascot Contest
 * Posted on August 26th,2018 at 6:00PM EST by Cody Cooper*
