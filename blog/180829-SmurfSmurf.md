@@ -4,7 +4,7 @@ author: Cody Cooper
 title: WSU - SMURF SMURF!
 ---
 
-We are now able to sit back and let others doour Smurf for Smurf! I mean smurf for smurf!
+We are now able to sit back and let others do our Smurf for Smurf! I mean smurf for smurf!
 
 We now have a NPC Smurf that you can see in action  OpenSimWorld region, I havent personally seen it yet, but i've been told it is a very amusing thing, go check it out! The NPC is part of the farm package now.
 
