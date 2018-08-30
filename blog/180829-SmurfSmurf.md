@@ -23,5 +23,6 @@ This month has brought many new things including :
 - Eating HUD
 - And Several other things!
 
-
 I am asking that if someone has a custom object they made for use with their farm, they send me a copy of it to put in our Farm Cooperative Region
+
+Note from Satyr: This release is credited to Unregi Resident, who worked and greatly improved the farm scripts. He is now an official member of the SF Team. Credit also goes to Cody Cooper for setting up this very site for SatyrFarm. We hope you will enjoy this release.
