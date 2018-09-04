@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://satyrfarm.github.io/</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/about</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/documentation/</loc>
+  <lastmod>2018-08-28T12:32:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/blog/</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/quickstart</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/faq</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/help</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/events</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/directory</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/devguide</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/documentation/devquickstart</loc>
+  <lastmod>2018-08-28T12:32:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/blog/180829-SmurfSmurf</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://satyrfarm.github.io/blog/8262018-MascotContest</loc>
+  <lastmod>2018-09-04T17:52:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
