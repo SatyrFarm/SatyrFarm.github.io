@@ -30,13 +30,7 @@
                 <td>alphasocke#7866</td>
             
             </tr>
-              <tr>
-                <td>Unregi Resident</td>
-                <td>Core Developer</td>
-                <td>@osgrid.org:8002</td>
-                <td>alphasocke#7866</td>
-            
-            </tr>
+    
             <tr>
                 <td>Carlwash Constantine</td>
                 <td>Item Contributor</td>
