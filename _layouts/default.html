@@ -41,7 +41,8 @@ window.cookieconsent.initialise({
     // enable cookies
   }
   if (type == 'opt-out' && !didConsent) {
-    // disable cookies
+    // Disable Cookies
+    window['ga-disable-{{ site.google_analytics }}'] = true;
   }
 },
  
@@ -52,14 +53,16 @@ onStatusChange: function(status, chosenBefore) {
     // enable cookies
   }
   if (type == 'opt-out' && !didConsent) {
-    // disable cookies
+    // Disable Cookies
+    window['ga-disable-{{ site.google_analytics }}'] = true;
   }
 },
  
 onRevokeChoice: function() {
   var type = this.options.type;
   if (type == 'opt-in') {
-    // disable cookies
+    // Disable Cookies
+    window['ga-disable-{{ site.google_analytics }}'] = true;
   }
   if (type == 'opt-out') {
     // enable cookies
