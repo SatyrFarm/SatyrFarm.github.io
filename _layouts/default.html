@@ -33,7 +33,11 @@ window.cookieconsent.initialise({
     "href": "hhhhh"
   }
 })});
-  
+ 
+</script>
+    
+    <script>
+       
   onInitialise: function (status) {
   var type = this.options.type;
   var didConsent = this.hasConsented();
@@ -64,8 +68,8 @@ onRevokeChoice: function() {
   if (type == 'opt-out') {
     window['ga-disable-{{ site.google_analytics }}'] = true;
   }
-},
-</script>
+}
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
  
