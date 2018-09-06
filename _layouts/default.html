@@ -1,143 +1,127 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    
-    
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "#f1d600"
-    }
-  },
-  "type": "opt-out",
-  "content": {
-    "href": "hhhhh"
-  }
-})});
-  
-  onInitialise: function (status) {
-  var type = this.options.type;
-  var didConsent = this.hasConsented();
-  if (type == 'opt-in' && didConsent) {
-    // enable cookies
-  }
-  if (type == 'opt-out' && !didConsent) {
-    // Disable Cookies
-    window['ga-disable-{{ site.google_analytics }}'] = true;
-  }
-},
- 
-onStatusChange: function(status, chosenBefore) {
-  var type = this.options.type;
-  var didConsent = this.hasConsented();
-  if (type == 'opt-in' && didConsent) {
-    // enable cookies
-  }
-  if (type == 'opt-out' && !didConsent) {
-    // Disable Cookies
-    window['ga-disable-{{ site.google_analytics }}'] = true;
-  }
-},
- 
-onRevokeChoice: function() {
-  var type = this.options.type;
-  if (type == 'opt-in') {
-    // Disable Cookies
-    window['ga-disable-{{ site.google_analytics }}'] = true;
-  }
-  if (type == 'opt-out') {
-    // enable cookies
-  }
-},
- 
-</script>
-  
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
- 
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
-
-  </head>
-  <body>
-    <div class="wrapper">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   {% seo %}
+   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+   <!--[if lt IE 9]>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+   <![endif]-->
+   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+   <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+   <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+   <script>
+      window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#000"
+          },
+          "button": {
+            "background": "#f1d600"
+          }
+        },
+        "type": "opt-out",
+        "content": {
+          "href": "hhhhh"
+        }
+      })});
+        
+        onInitialise: function (status) {
+        var type = this.options.type;
+        var didConsent = this.hasConsented();
+        if (type == 'opt-in' && didConsent) {
+          // enable cookies
+        }
+        if (type == 'opt-out' && !didConsent) {
+          // Disable Cookies
+          window['ga-disable-{{ site.google_analytics }}'] = true;
+        }
+      },
+       
+      onStatusChange: function(status, chosenBefore) {
+        var type = this.options.type;
+        var didConsent = this.hasConsented();
+        if (type == 'opt-in' && didConsent) {
+          // enable cookies
+        }
+        if (type == 'opt-out' && !didConsent) {
+          // Disable Cookies
+          window['ga-disable-{{ site.google_analytics }}'] = true;
+        }
+      },
+       
+      onRevokeChoice: function() {
+        var type = this.options.type;
+        if (type == 'opt-in') {
+          // Disable Cookies
+          window['ga-disable-{{ site.google_analytics }}'] = true;
+        }
+        if (type == 'opt-out') {
+          // enable cookies
+        }
+      },
+       
+   </script>
+   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+   <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+   <div class="wrapper">
       <header>
-              
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" style="height:120px"  />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
-        {% if site.show_sidebar %}
-        <ul>
-           <li><a href="https://satyrfarm.github.io/">Home</a></li>
-          <li><a href="https://satyrfarm.github.io/about">About</a></li>
-          <li><a href="https://satyrfarm.github.io/documentation/">Documentation</a></li>
-          <li><a href="https://satyrfarm.github.io/blog/">Blog</a></li>
-          <li><a href="https://satyrfarm.github.io/quickstart">Quickstart</a></li>
-          <li><a href="https://satyrfarm.github.io/faq">Frequently Asked Questions</a></li>
-          <li><a href="https://satyrfarm.github.io/help">Help and Support</a></li>
-          <li><a href="https://satyrfarm.github.io/events">Events</a></li>
-          <li><a href="https://satyrfarm.github.io/directory">Farms Directory</a></li>
-          
-        </ul>
-        {% endif %}
+         {% if site.logo %}
+         <img src="{{site.logo | relative_url}}" alt="Logo" style="height:120px"  />
+         {% endif %}
+         <p>{{ site.description | default: site.github.project_tagline }}</p>
+         {% if site.github.is_project_page %}
+         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+         {% endif %}
+         {% if site.show_downloads %}
+         <ul class="downloads">
+            <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+            <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+            <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+         </ul>
+         {% endif %}
+         {% if site.show_sidebar %}
+         <ul>
+            <li><a href="https://satyrfarm.github.io/">Home</a></li>
+            <li><a href="https://satyrfarm.github.io/about">About</a></li>
+            <li><a href="https://satyrfarm.github.io/documentation/">Documentation</a></li>
+            <li><a href="https://satyrfarm.github.io/blog/">Blog</a></li>
+            <li><a href="https://satyrfarm.github.io/quickstart">Quickstart</a></li>
+            <li><a href="https://satyrfarm.github.io/faq">Frequently Asked Questions</a></li>
+            <li><a href="https://satyrfarm.github.io/help">Help and Support</a></li>
+            <li><a href="https://satyrfarm.github.io/events">Events</a></li>
+            <li><a href="https://satyrfarm.github.io/directory">Farms Directory</a></li>
+         </ul>
+         {% endif %}
       </header>
       <section>
-
-      {{ content }}
-
+         {{ content }}
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+         {% if site.github.is_project_page %}
+         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+         {% endif %}
+         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-   
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ site.google_analytics }}');
-</script>
-
-    {% endif %}
-  </body>
+   </div>
+   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+   {% if site.google_analytics %}
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', '{{ site.google_analytics }}');
+   </script>
+   {% endif %}
+</body>
 </html>
