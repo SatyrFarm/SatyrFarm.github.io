@@ -11,8 +11,7 @@
    <![endif]-->
    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-   <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-   <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+
    <script>
       window.addEventListener("load", function(){
       window.cookieconsent.initialise({
@@ -30,40 +29,6 @@
         }
       })});
         
-        onInitialise: function (status) {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-in' && didConsent) {
-          // enable cookies
-        }
-        if (type == 'opt-out' && !didConsent) {
-          // Disable Cookies
-          window['ga-disable-{{ site.google_analytics }}'] = true;
-        }
-      },
-       
-      onStatusChange: function(status, chosenBefore) {
-        var type = this.options.type;
-        var didConsent = this.hasConsented();
-        if (type == 'opt-in' && didConsent) {
-          // enable cookies
-        }
-        if (type == 'opt-out' && !didConsent) {
-          // Disable Cookies
-          window['ga-disable-{{ site.google_analytics }}'] = true;
-        }
-      },
-       
-      onRevokeChoice: function() {
-        var type = this.options.type;
-        if (type == 'opt-in') {
-          // Disable Cookies
-          window['ga-disable-{{ site.google_analytics }}'] = true;
-        }
-        if (type == 'opt-out') {
-          // enable cookies
-        }
-      },
        
    </script>
    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
