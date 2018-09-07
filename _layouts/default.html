@@ -36,10 +36,12 @@
           var type = this.options.type;
           var didConsent = this.hasConsented();
           if (type == 'opt-in' && didConsent) {
-            // enable cookies
           }
           if (type == 'opt-out' && !didConsent) {
             // disable cookies
+
+            window['ga-disable-{{ site.google_analytics }}'] = true;
+
           }
         },
          
@@ -51,6 +53,9 @@
           }
           if (type == 'opt-out' && !didConsent) {
             // disable cookies
+
+            window['ga-disable-{{ site.google_analytics }}'] = true;
+
           }
         },
          
@@ -58,6 +63,9 @@
           var type = this.options.type;
           if (type == 'opt-in') {
             // disable cookies
+
+            window['ga-disable-{{ site.google_analytics }}'] = true;
+
           }
           if (type == 'opt-out') {
             // enable cookies
