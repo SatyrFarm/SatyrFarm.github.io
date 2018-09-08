@@ -46,6 +46,13 @@
                 <td></td>
             
             </tr>
+             <tr>
+                <td>Tosha Tyran</td>
+                <td>Item Contributor</td>
+                <td>@craftgrid.org</td>
+                <td></td>
+            
+            </tr>
            <tr>
                 <td>Erwan Elan</td>
                 <td>Item Contributor</td>
