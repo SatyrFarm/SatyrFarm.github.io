@@ -27,7 +27,7 @@ The  HUD  is for eating food that you make in the Kitchen, Oven, Coffee maker et
 ### What is the SF Buffet for? What is the Bar for? ###
 The Bar and Buffet are party items that give you a glass or a plate to fill. Click "Get Glass" or plate and wear it  before getting a drink or food. The Buffet & Bar are not related to the HUD and do not change your hungry/thirsty levels
 
-### When do animals mate? How do they give milk/wool etc?###
+### When do animals mate? How do they give milk/wool etc? ###
 Animals typically spend 15% of their lifetime as children with some exceptions. The lifetime of each animal varies but you can check their config notecard (LIFEDAYS variable) for an average. Eggs take a few days to hatch. Adult females can mate via the Mate option in the menu. Mammals will start giving milk after their first child. Some adult animals give wool periodically. You can also use the Options-> Help function for this information.
 
 ### How does the Farmer NPC Work?
