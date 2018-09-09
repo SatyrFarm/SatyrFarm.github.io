@@ -16,7 +16,7 @@ For the latest  SatyrFarm package, visit OpenSimWorld:  hypergrid.org:8002:OpenS
 - The SF Windpump automatically fills up the nearest water tower. the Water Tower can automatically water everything if you have autoWater enabled
 - The SF Rack and Fridge are for storing harvested items for longer term. Animal feeders can automatically take items from them if you turn on the  AutoFood option.
 - The names of the objects starting with "SF " must not be changed. The names are important for the functipning of the farm.
-- **DO  NOT TAKE BUCKETS IN INVENTORY, THEY WILL BECOME UNUSABLE**. Put them in the storage barrels instead. (This is not like G&S). Only the animals can be taken to inventory and they will not starve while they are in inventory although they will keep growing. 
+- **DO  NOT TAKE BUCKETS IN INVENTORY, THEY WILL BECOME UNUSABLE**. Put them in the storage barrels instead.
 
 ### Animals
 
