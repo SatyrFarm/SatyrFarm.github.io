@@ -9,74 +9,7 @@
    <!--[if lt IE 9]>
    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
    <![endif]-->
-   <link rel="stylesheet" type="text/css" href="/assets/css/cookieconsent.css" />
-   <script src="/assets/js/cookieconsent.js"></script>
 
-   <script>
-      window.addEventListener("load", function(){
-
-         
-      window.cookieconsent.initialise({
-        "palette": {
-          "popup": {
-            "background": "#000"
-          },
-          "button": {
-            "background": "#f1d600"
-          }
-        },
-        
-        "type": "opt-out",
-        
-        "content": {
-          "href": "http://www.allaboutcookies.org/"
-        },
-         
-        onInitialise: function (status) {
-          var type = this.options.type;
-          var didConsent = this.hasConsented();
-          if (type == 'opt-in' && didConsent) {
-          }
-          if (type == 'opt-out' && !didConsent) {
-            // disable cookies
-
-            window['ga-disable-{{ site.google_analytics }}'] = true;
-
-          }
-        },
-         
-        onStatusChange: function(status, chosenBefore) {
-          var type = this.options.type;
-          var didConsent = this.hasConsented();
-          if (type == 'opt-in' && didConsent) {
-            // enable cookies
-          }
-          if (type == 'opt-out' && !didConsent) {
-            // disable cookies
-
-            window['ga-disable-{{ site.google_analytics }}'] = true;
-
-          }
-        },
-         
-        onRevokeChoice: function() {
-          var type = this.options.type;
-          if (type == 'opt-in') {
-            // disable cookies
-
-            window['ga-disable-{{ site.google_analytics }}'] = true;
-
-          }
-          if (type == 'opt-out') {
-            // enable cookies
-          }
-        }
-         
-                 
-      })});
-        
-       
-   </script>
       {% if site.google_analytics %}
    <!-- Global site tag (gtag.js) - Google Analytics -->
    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -88,6 +21,7 @@
       gtag('config', '{{ site.google_analytics }}');
    </script>
    {% endif %}
+   
    <script src="/assets/js/jquery.js"></script>
    <link rel="stylesheet" type="text/css" href="/assets/css/datatables.css"/>
    <script type="text/javascript" src="/assets/js/datatables.js"></script>
