@@ -4,7 +4,7 @@ layout: default
 
 ## Quickstart Guide
 
-For the latest  SatyrFarm package, visit OpenSimWorld:  hypergrid.org:8002:OpenSimWorld 
+For the latest  SatyrFarm package, visit OpenSimWorld:  `hg.osgrid.org:80:OpenSimWorld`
 
 ### Farm Basics
 
