@@ -3,7 +3,6 @@ layout: default
 title: Frequently Asked Questions
 ---
 
-
 <h3 id="what-is-satyr-farm">What is Satyr Farm?</h3>
 
 SatyrFarm is a complete farming system for roleplay or just for fun in Opensimulator regions. It contains farm plants, trees, storage, processing machines as well as multiple breedable animals
@@ -37,16 +36,17 @@ The Farmer NPC is constantly looking for farm items within his range (90m). It w
 
 <h3 id="why-doesnt-the-farmercat-npc-work-in-my-region">Why doesn’t the Farmer/Cat NPC work in my region</h3>
 The Farmer and Cat NPC boxes require the following permissions to be allowed in your opensim .ini  files:
-
 <pre>
 allow_osGetNotecard=true
 allow_osMessageObject=true
 </pre>
-
 You need to change these settings or get your sim host to change them for you. The settings can be found either in your OpenSim.ini file (in the same folder where OpenSim.exe is)  or in the config-include/osslEnable.ini. You must also have enabled NPCs in your region (Set Enabled = true in the [NPC] section of your OpenSim.ini file).
 
+<br/><br/>
+When rezzing an NPC , it should appear right in front of the rezzer box. If they are rezzed at the edge of the sim instead, this means you have closed access to your parcel. This will cause the NPC to fail. Please allow access to the parcel (The NPC will use the group of the controller, so can allow group access), and make sure age restriction is off (that setting doesnt seem to work with NPCs).
+
 <h3 id="my-farmercat-npc-does-not-move">My farmer/cat NPC does not move</h3>
-After you rez the Farmer NPC, click again “Start” to have him begin farming. There must be a Well within 90m from him and some farm plants to water. If you are getting script errors or it is not moving, please see the previous question. For the cat NPC, make sure you place an SF Cat Feeder near the cat or the cat ll go hungry.
+There must be a Well within 90m from him and some farm plants to water. If you are getting script errors or it is not moving, please see the previous question. 
 
 <h3 id="why-cant-i-see-the-farmer-npc">Why can’t I see the Farmer NPC</h3>
 If the Farmer NPC does not appear in your region, it means its assets are missing from your grid. You can recreate the NPC using the contents of the NPC box. Wear the Smurf avi and the FarmerListener Object, and click “SaveAppearance” to recreate his notecard. You can of use any other avatar apart from the smurf to create any NPC you want. You can also change his name in the ‘config’ notecard.
