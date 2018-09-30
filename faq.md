@@ -38,8 +38,10 @@ The Farmer NPC is constantly looking for farm items within his range (90m). It w
 <h3 id="why-doesnt-the-farmercat-npc-work-in-my-region">Why doesn’t the Farmer/Cat NPC work in my region</h3>
 The Farmer and Cat NPC boxes require the following permissions to be allowed in your opensim .ini  files:
 
+<pre>
 allow_osGetNotecard=true
 allow_osMessageObject=true
+</pre>
 
 You need to change these settings or get your sim host to change them for you. The settings can be found either in your OpenSim.ini file (in the same folder where OpenSim.exe is)  or in the config-include/osslEnable.ini. You must also have enabled NPCs in your region (Set Enabled = true in the [NPC] section of your OpenSim.ini file).
 
