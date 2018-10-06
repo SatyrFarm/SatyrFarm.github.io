@@ -2,7 +2,7 @@
 layout: post
 author: Cody Cooper
 title: WSU - SMURF SMURF!
-date: 08-29-2018
+date: 2018-08-29
 ---
 
 We are now able to sit back and let others do our Smurf for Smurf! I mean smurf for smurf!
