@@ -2,7 +2,6 @@
 layout: default
 title: Frequently Asked Questions
 ---
-
 <h3 id="what-is-satyr-farm">What is Satyr Farm?</h3>
 
 SatyrFarm is a complete farming system for roleplay or just for fun in Opensimulator regions. It contains farm plants, trees, storage, processing machines as well as multiple breedable animals
@@ -40,10 +39,14 @@ The Farmer and Cat NPC boxes require the following permissions to be allowed in 
 allow_osGetNotecard=true
 allow_osMessageObject=true
 </pre>
-You need to change these settings or get your sim host to change them for you. The settings can be found either in your OpenSim.ini file (in the same folder where OpenSim.exe is)  or in the config-include/osslEnable.ini. You must also have enabled NPCs in your region (Set Enabled = true in the [NPC] section of your OpenSim.ini file).
+You need to change these settings or get your sim host to change them for you. The settings can be found either in your OpenSim.ini file (in the same folder where OpenSim.exe is)  or in the config-include/osslEnable.ini. You must also have enabled NPCs in your region (Set Enabled = true in the [NPC] section of your OpenSim.ini file). If you use opensim 0.9, you can set these options to PARCEL_GROUP_OWNER instead of "true"  (safer).
+
+Important note: In latest version of opensim, the settings for OSSL functions are in the [OSSL] section , NOT in the [XEngine] section where they used to be.
 
 <br/><br/>
 When rezzing an NPC , it should appear right in front of the rezzer box. If they are rezzed at the edge of the sim instead, this means you have closed access to your parcel. This will cause the NPC to fail. Please allow access to the parcel (The NPC will use the group of the controller, so can allow group access), and make sure age restriction is off (that setting doesnt seem to work with NPCs).
+
+When the farmer NPC starts, he will look for a Well in a range of 90 meters, and complain if it can't find it. 
 
 <h3 id="my-farmercat-npc-does-not-move">My farmer/cat NPC does not move</h3>
 There must be a Well within 90m from him and some farm plants to water. If you are getting script errors or it is not moving, please see the previous question. 
