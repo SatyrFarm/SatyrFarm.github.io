@@ -7,7 +7,7 @@ title: Frequently Asked Questions
 SatyrFarm is a complete farming system for roleplay or just for fun in Opensimulator regions. It contains farm plants, trees, storage, processing machines as well as multiple breedable animals
 
 <h3 id="where-can-i-get-it">Where can I Get It?</h3>
-You can get the current up-to-date farm package from the OpenSimWorld Region in Metropolis Grid: https://opensimworld.com/hop/74730-OpenSimWorld. The package contains the complete farm as well as some documentation and extra tools.
+You can get the current up-to-date farm package from the OpenSimWorld Region: https://opensimworld.com/hop/74730-OpenSimWorld. The package contains the complete farm as well as some documentation and extra tools.
 
 <h3 id="how-do-i-set-up-the-basics">How do i Set up the basics?</h3>
 Easy! When you get a copy of SatyrFarm, then you can rez the <b>Satyr Farm Platforms</b> which have all the basics ready. Make sure you rez it in a large empty space, as it contains a lot of stuff.  As a general rule, we suggest that you start growing some crops before growing many animals, otherwise your animals might get really hungry! You should read the <a href="/quickstart">quickstart guide</a> for your first steps.
