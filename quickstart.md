@@ -4,8 +4,6 @@ layout: default
 
 ## Quickstart Guide
 
-For the latest  SatyrFarm package, visit OpenSimWorld:  `hg.osgrid.org:80:OpenSimWorld`
-
 ### Farm Basics
 
 - You  must be in the same group as the farm objects to use them. Everyone in the same group can use your farm.
