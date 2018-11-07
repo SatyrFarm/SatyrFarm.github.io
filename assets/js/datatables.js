@@ -13,12 +13,12 @@
             },
             removeClass: function(e, t) {
                 var i = new RegExp("\\b" + this.escapeRegExp(t) + "\\b");
-                e.className = e.className.replace(i, "")
+                e.className = e.className.replace(i, "");
             },
             interpolateString: function(e, t) {
                 var i = /{{([a-z][a-z0-9\-_]*)}}/gi;
                 return e.replace(i, function(e) {
-                    return t(arguments[1]) || ""
+                    return t(arguments[1]) || "";
                 })
             },
             getCookie: function(e) {
@@ -47,7 +47,7 @@
             hash: function(e) {
                 var t, i, n, o = 0;
                 if (0 === e.length) return o;
-                for (t = 0, n = e.length; t < n; ++t) i = e.charCodeAt(t), o = (o << 5) - o + i, o |= 0;
+                for {(t = 0, n = e.length; t < n; ++t) i = e.charCodeAt(t), o = (o << 5) - o + i, o |= 0};
                 return o
             },
             normaliseHex: function(e) {
