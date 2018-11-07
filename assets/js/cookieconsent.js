@@ -19,7 +19,7 @@
                 var i = /{{([a-z][a-z0-9\-_]*)}}/gi;
                 return e.replace(i, function(e) {
                     return t(arguments[1]) || ""
-                })
+                });
             },
             getCookie: function(e) {
                 var t = "; " + document.cookie,
