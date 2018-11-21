@@ -19,7 +19,7 @@
             </tr>
             <tr>
                 <td>Cody Cooper</td>
-                <td>Website and Documentation Developer</td>
+                <td></td>
                 <td>@hg.neverworldgrid.com:8002</td>
                 <td>hollow_omnicron#3264</td>
             
@@ -32,48 +32,7 @@
             
             </tr>
     
-            <tr>
-                <td>Carlwash Constantine</td>
-                <td>Item Contributor</td>
-                <td>@hypergrid.org:8002</td>
-                <td></td>
             
-            </tr>
-              <tr>
-                <td>Ron Winterwolf</td>
-                <td>Item Contributor</td>
-                <td>@hypergrid.org:8002</td>
-                <td></td>
-            
-            </tr>
-             <tr>
-                <td>Tosha Tyran</td>
-                <td>Item Contributor</td>
-                <td>@craftgrid.org</td>
-                <td></td>
-            
-            </tr>
-           <tr>
-                <td>Erwan Elan</td>
-                <td>Item Contributor</td>
-                <td>@94.23.26.225:8010</td>
-                <td></td>
-            
-            </tr>
-             <tr>
-                <td>Bob Wellman</td>
-                <td>Code Contributor</td>
-                <td>@www.pmgrid.org:8002</td>
-                <td></td>
-            
-            </tr>
-            <tr>
-                <td>Shellen Ayres</td>
-                <td>Code Contributor</td>
-                <td>@hypergrid.org:8002</td>
-                <td></td>
-            
-            </tr>
            
         </tbody>
         <tfoot>
